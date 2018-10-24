@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd {{pkg.path}}
+reveal-md presentations/{{cfg.presentation}}/slides.md --disable-auto-open
