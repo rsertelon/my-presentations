@@ -16,71 +16,52 @@ revealOptions:
 
 @rsertelon
 
-Tech lead @ Nuxeo <!-- .element: class="fragment" -->
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:380px"><span>Tech lead @ Nuxeo</span> <img src="logo-nuxeo.ico" style="border:none;background-color:rgb(34, 34, 34)"/></p>
 
-Habitat core plans maintainer <!-- .element: class="fragment" -->
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:590px"><img src="habicat.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px" /> <span style="margin-left:5px">Habitat core plans maintainer</span></p>
 
 -----
 
-## Background
+## A Little Background First
 
 ---
 
 ### Context
 
-1 product <!-- .element: class="fragment" -->
+4 years
 
-2 developers <!-- .element: class="fragment" -->
+2 developers
 
-Monolith to µServices <!-- .element: class="fragment" -->
+Monolith to µServices
 
-Simplest Infrastructure possible <!-- .element: class="fragment" -->
+Simplest Infrastructure possible
 
 ---
 
 ### Infrastructure
 
-2 envs <!-- .element: class="fragment" -->
+2 envs
 
-8 services <!-- .element: class="fragment" -->
+8 services
 
-"Container" tarballs <!-- .element: class="fragment" -->
+"Container" tarballs
 
-Manual deployments each sprint <!-- .element: class="fragment" -->
-
----
-
-### Wishlist
-
-No more SSH <!-- .element: class="fragment" -->
-
-Config Management <!-- .element: class="fragment" -->
-
-Continuous Deployment <!-- .element: class="fragment" -->
-
-Infrastructure Agnostic Tooling <!-- .element: class="fragment" -->
-
------
-
-## DevOps?
+Manual deployments each sprint
 
 ---
 
-### Organization
+### Our needs
 
-Multi disciplinary team <!-- .element: class="fragment" -->
+No more SSH
 
-Part of a Large structure <!-- .element: class="fragment" -->
+Config Management
 
-Ops team with old processes <!-- .element: class="fragment" -->
+Continuous Deployment
 
----
-
-### Our goals
-
-Control over the app deployment <!-- .element: class="fragment" -->
-
-We needed to adapt easily to changes <!-- .element: class="fragment" -->
+<p>
+Infrastructure Agnostic Tooling<br/>
+<span style="font-size:.5em;">(to adapt easily to ops changes)</span>
+</p>
 
 -----
 
@@ -92,17 +73,17 @@ We needed to adapt easily to changes <!-- .element: class="fragment" -->
 
 Backed by CHEF inc. <!-- .element: class="fragment" -->
 
-Public announcement in June, 2016 <!-- .element: class="fragment" -->
+Announced in June, 2016 <!-- .element: class="fragment" -->
 
 Early adopters community <!-- .element: class="fragment" -->
 
-Focus is on 1.0 release atm <!-- .element: class="fragment" -->
+Core team focusing is on 1.0 atm <!-- .element: class="fragment" -->
 
 ---
 
 ### Innovative vision
 
-"Application Automation" <!-- .element: class="fragment" -->
+_"Application Automation"_ <!-- .element: class="fragment" -->
 
 <img src="habitat-pyramid.png" style="border:none;background-color:rgb(34, 34, 34)" class="fragment" />
 
@@ -114,7 +95,7 @@ Packages your application <!-- .element: class="fragment" -->
 
 Runs your application <!-- .element: class="fragment" -->
 
-Adds automation around your application <!-- .element: class="fragment" -->
+<p class="fragment">Adds automation _around_ your application</p>
 
 -----
 
@@ -154,20 +135,22 @@ do_install() {
 
 ```bash
 $ hab pkg build plan.sh
-```
 
-... <!-- .element: class="fragment" -->
+...
 
-```bash
 I love it when a plan.sh comes together.
+
+$ ls results/
+rsertelon-http-echo-0.1.0-20181029153000-x86_64-linux.hart
 ```
- <!-- .element: class="fragment" -->
 
 ---
 
 ### Deploy
 
-TODO: Add HART mention + Depot
+<img src="depot-ui.png" style="border:none" />
+
+Available on premise <!-- .element: class="fragment" -->
 
 ---
 
@@ -182,8 +165,89 @@ TODO: Add HART mention + Depot
  <img src="logo-targz.svg" style="border:none;background-color:rgb(34, 34, 34);width:100px" />
 </div>
 
+Or do not export <!-- .element: class="fragment" -->
+
+```bash
+hab pkg install <hart_file | pkg_ident>
+```
+<!-- .element: class="fragment" -->
+
 -----
 
 ## Run Your Application
 
 ---
+
+### Supervisor
+
+Supervises your service(s) <!-- .element: class="fragment" -->
+
+Manages service configuration <!-- .element: class="fragment" -->
+
+Can update the service package <!-- .element: class="fragment" -->
+
+---
+
+### Distributed Intelligence
+
+Supervisors can peer <!-- .element: class="fragment" -->
+
+Service groups <!-- .element: class="fragment" -->
+
+Coordination <!-- .element: class="fragment" -->
+
+-----
+
+## Automate
+
+---
+
+### Continuous Delivery
+
+Builder
+
+Reverse Deps Rebuilds
+
+---
+
+### Continuous Deployment
+
+Depot Channels
+
+Supervisors channel subscription
+
+-----
+
+## Demo
+
+-----
+
+## Summary
+
+---
+
+## How Habitat helped us
+
+1 week
+
+Jenkins integration
+
+Centralized configuration
+
+"Future proof" for Infrastructure
+
+---
+
+## How it could help you
+
+Common packaging for every apps
+
+Common config management interface
+
+Technical interface between dev and ops
+
+-----
+
+## That's all folks!
+
+Questions? <!-- .element: class="fragment" -->
