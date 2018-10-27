@@ -7,7 +7,7 @@ revealOptions:
     transition: slide
 ---
 
-<img src="habitat.svg" width="400" style="border:none;background-color:rgb(34, 34, 34)"/>
+<img src="assets/habitat.svg" width="400" style="border:none;background-color:rgb(34, 34, 34)"/>
 #### Application that travels with the app
 
 -----
@@ -16,9 +16,9 @@ revealOptions:
 
 @rsertelon
 
-<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:380px"><span>Tech lead @ Nuxeo</span> <img src="logo-nuxeo.ico" style="border:none;background-color:rgb(34, 34, 34)"/></p>
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:380px"><span>Tech lead @ Nuxeo</span> <img src="assets/logo-nuxeo.ico" style="border:none;background-color:rgb(34, 34, 34)"/></p>
 
-<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:590px"><img src="habicat.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px" /> <span style="margin-left:5px">Habitat core plans maintainer</span></p>
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:590px"><img src="assets/habicat.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px" /> <span style="margin-left:5px">Habitat core plans maintainer</span></p>
 
 -----
 
@@ -65,15 +65,15 @@ Infrastructure Agnostic Tooling<br/>
 
 -----
 
-<img src="habitat.svg" width="400" style="border:none;background-color:rgb(34, 34, 34)"/>
+<img src="assets/habitat.svg" width="400" style="border:none;background-color:rgb(34, 34, 34)"/>
 
-<img src="habicat.svg" width="100" style="border:none;background-color:rgb(34, 34, 34)"/>
+<img src="assets/habicat.svg" width="100" style="border:none;background-color:rgb(34, 34, 34)"/>
 
 ---
 
 ### The project
 
-<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:330px"><span style="margin-right:10px">Backed by</span> <img src="logo-chef.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px"/></p>
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:330px"><span style="margin-right:10px">Backed by</span> <img src="assets/logo-chef.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px"/></p>
 
 Announced in June, 2016 <!-- .element: class="fragment" -->
 
@@ -87,7 +87,7 @@ Core team current focus is on 1.0 <!-- .element: class="fragment" -->
 
 _"Application Automation"_ <!-- .element: class="fragment" -->
 
-<img src="habitat-pyramid.png" style="border:none;background-color:rgb(34, 34, 34)" class="fragment" />
+<img src="assets/habitat-pyramid.png" style="border:none;background-color:rgb(34, 34, 34)" class="fragment" />
 
 ---
 
@@ -146,13 +146,13 @@ $ ls results/
 rsertelon-http-echo-0.1.0-20181029153000-x86_64-linux.hart
 ```
 
-<img src="a-team.png" class="fragment" style="border:none;background-color:rgb(34, 34, 34);width:200px;position:absolute;top:140px;right:100px" />
+<img src="assets/a-team.png" class="fragment" style="border:none;background-color:rgb(34, 34, 34);width:200px;position:absolute;top:140px;right:100px" />
 
 ---
 
 ### Deploy
 
-<img src="depot-ui.png" style="border:none" />
+<img src="assets/depot-ui.png" style="border:none" />
 
 Available on premise <!-- .element: class="fragment" -->
 
@@ -161,12 +161,12 @@ Available on premise <!-- .element: class="fragment" -->
  ### Export
 
 <div style="display:flex;height:142px;justify-content:space-around">
- <img src="logo-cloud-foundry.png" style="border:none;background-color:rgb(34, 34, 34)" />
- <img src="logo-docker.png" style="border:none;background-color:rgb(34, 34, 34)" />
- <img src="logo-helm.svg" style="border:none;background-color:rgb(34, 34, 34)" />
- <img src="logo-k8s.svg" style="border:none;background-color:rgb(34, 34, 34)" />
- <img src="logo-mesos.jpg" style="border:none;background-color:rgb(34, 34, 34)" />
- <img src="logo-targz.svg" style="border:none;background-color:rgb(34, 34, 34);width:100px" />
+ <img src="assets/logo-cloud-foundry.png" style="border:none;background-color:rgb(34, 34, 34)" />
+ <img src="assets/logo-docker.png" style="border:none;background-color:rgb(34, 34, 34)" />
+ <img src="assets/logo-helm.svg" style="border:none;background-color:rgb(34, 34, 34)" />
+ <img src="assets/logo-k8s.svg" style="border:none;background-color:rgb(34, 34, 34)" />
+ <img src="assets/logo-mesos.jpg" style="border:none;background-color:rgb(34, 34, 34)" />
+ <img src="assets/logo-targz.svg" style="border:none;background-color:rgb(34, 34, 34);width:100px" />
 </div>
 
 Or maybe not? <!-- .element: class="fragment" -->
