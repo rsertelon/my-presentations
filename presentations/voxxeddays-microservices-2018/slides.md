@@ -52,7 +52,7 @@ Manual deployments each sprint
 
 ### Our needs
 
-No more SSH
+"No more SSH"
 
 Config Management
 
@@ -67,17 +67,19 @@ Infrastructure Agnostic Tooling<br/>
 
 <img src="habitat.svg" width="400" style="border:none;background-color:rgb(34, 34, 34)"/>
 
+<img src="habicat.svg" width="100" style="border:none;background-color:rgb(34, 34, 34)"/>
+
 ---
 
 ### The project
 
-Backed by CHEF inc. <!-- .element: class="fragment" -->
+<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:330px"><span style="margin-right:10px">Backed by</span> <img src="logo-chef.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px"/></p>
 
 Announced in June, 2016 <!-- .element: class="fragment" -->
 
 Early adopters community <!-- .element: class="fragment" -->
 
-Core team focusing is on 1.0 atm <!-- .element: class="fragment" -->
+Core team current focus is on 1.0 <!-- .element: class="fragment" -->
 
 ---
 
@@ -144,6 +146,8 @@ $ ls results/
 rsertelon-http-echo-0.1.0-20181029153000-x86_64-linux.hart
 ```
 
+<img src="a-team.png" class="fragment" style="border:none;background-color:rgb(34, 34, 34);width:200px;position:absolute;top:140px;right:100px" />
+
 ---
 
 ### Deploy
@@ -165,12 +169,7 @@ Available on premise <!-- .element: class="fragment" -->
  <img src="logo-targz.svg" style="border:none;background-color:rgb(34, 34, 34);width:100px" />
 </div>
 
-Or do not export <!-- .element: class="fragment" -->
-
-```bash
-hab pkg install <hart_file | pkg_ident>
-```
-<!-- .element: class="fragment" -->
+Or maybe not? <!-- .element: class="fragment" -->
 
 -----
 
@@ -250,4 +249,10 @@ Technical interface between dev and ops
 
 ## That's all folks!
 
-Questions? <!-- .element: class="fragment" -->
+<p style="font-size:.7em">https://www.habitat.sh</p>
+
+-----
+
+## Questions?
+
+<p style="font-size:.7em">https://www.habitat.sh</p>
