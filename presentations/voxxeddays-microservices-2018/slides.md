@@ -22,7 +22,7 @@ revealOptions:
 
 -----
 
-## A Little Background First
+## What lead me to Habitat
 
 ---
 
@@ -60,7 +60,7 @@ Continuous Deployment
 
 <p>
 Infrastructure Agnostic Tooling<br/>
-<span style="font-size:.5em;">(to adapt easily to ops changes)</span>
+<span style="font-size:.5em;">(to adapt easily to infrastructure changes)</span>
 </p>
 
 -----
@@ -185,6 +185,8 @@ Manages service configuration <!-- .element: class="fragment" -->
 
 Can update the service package <!-- .element: class="fragment" -->
 
+All is declared in package source <!-- .element: class="fragment" -->
+
 ---
 
 ### Distributed Intelligence
@@ -197,7 +199,7 @@ Coordination <!-- .element: class="fragment" -->
 
 -----
 
-## Automate
+## Automate Your Application
 
 ---
 
@@ -238,6 +240,8 @@ Centralized configuration
 ---
 
 ## How it could help you
+
+Incremental deployment
 
 Common packaging for every apps
 
