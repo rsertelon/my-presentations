@@ -73,31 +73,31 @@ Infrastructure Agnostic Tooling<br/>
 
 ### The project
 
-<p class="fragment" style="display:flex;align-items:center;margin:0 auto;width:330px"><span style="margin-right:10px">Backed by</span> <img src="assets/logo-chef.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px"/></p>
+<p style="display:flex;align-items:center;margin:0 auto;width:330px"><span style="margin-right:10px">Backed by</span> <img src="assets/logo-chef.svg" style="border:none;background-color:rgb(34, 34, 34);height:50px"/></p>
 
-Announced in June, 2016 <!-- .element: class="fragment" -->
+Announced in June, 2016
 
-Early adopters community <!-- .element: class="fragment" -->
+Early adopters community
 
-Core team current focus is on 1.0 <!-- .element: class="fragment" -->
+Core team current focus is on 1.0
 
 ---
 
 ### Innovative vision
 
-_"Application Automation"_ <!-- .element: class="fragment" -->
+_"Application Automation"_
 
 <img src="assets/habitat-pyramid.png" style="border:none;background-color:rgb(34, 34, 34)" class="fragment" />
 
 ---
 
-### What it does
+### How it does that
 
-Packages your application <!-- .element: class="fragment" -->
+Encapsulates and automates your application <!-- .element: class="fragment" -->
 
-Runs your application <!-- .element: class="fragment" -->
+Package Management <!-- .element: class="fragment" -->
 
-<p class="fragment">Adds automation _around_ your application</p>
+Supervisor <!-- .element: class="fragment" -->
 
 -----
 
@@ -179,27 +179,25 @@ Or maybe not? <!-- .element: class="fragment" -->
 
 ### Supervisor
 
-Supervises your service(s) <!-- .element: class="fragment" -->
+Supervises your service(s)
 
-Manages service configuration <!-- .element: class="fragment" -->
+Can manage service configuration
 
-Can update the service package <!-- .element: class="fragment" -->
-
-All is declared in package source <!-- .element: class="fragment" -->
+Can update the service package
 
 ---
 
 ### Distributed Intelligence
 
-Supervisors can peer <!-- .element: class="fragment" -->
+Supervisors can peer
 
-Service groups <!-- .element: class="fragment" -->
+Service groups
 
-Coordination <!-- .element: class="fragment" -->
+Coordination
 
 -----
 
-## Automate Your Application
+## Construct automation workflows
 
 ---
 
@@ -227,7 +225,7 @@ Supervisors channel subscription
 
 ---
 
-## How Habitat helped us
+## What we did with Habitat
 
 1 week
 
